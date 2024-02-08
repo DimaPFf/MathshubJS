@@ -32,7 +32,7 @@ function createTODO() {
 
     const addingBlock = createEl('div')
     addingBlock.className = 'todo__adding'
-    
+
     const input = createEl('input')
     const addButton = createEl('button')
     addButton.textContent = 'add'
