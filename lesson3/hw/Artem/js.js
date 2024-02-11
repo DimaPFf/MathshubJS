@@ -1,11 +1,11 @@
-let a=1;//1 число
-let b=2;//2 число
-let i=0;//счетчик
+let a=1;
+let b=2;
+let i=0;
 while(i<10){
-    let c = a+b;//3
+    let c = a+b;
     console.log(a); 
-    a = b;// a->b = 2
-    b=c;// b>c = 3
+    a = b;
+    b=c;
     
     i++
 }
@@ -105,18 +105,18 @@ while(i<10){
 
 
 
-// function kofe(){
+// function koffe(){
 
 // do{
-//   const coffe = confirm('Добавить ли сахар');
-//   if (coffe){
+//   const sugar = confirm('Добавить ли сахар');
+//   if (sugar){
 //     let i = prompt("Колличество ложек сахара");
 //     alert(`Ложек сахара в кофе = ${i} `);
 //   } else{
 //     alert("Приятного аппетита")
 //   }
   
-// } while(coffe);
+// } while(sugar);
 
 // }
-// kofe()  
+// koffe()  
