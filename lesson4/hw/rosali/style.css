@@ -1,0 +1,79 @@
+
+.todo {
+    margin-top: 40px;
+}
+
+.todo__container {
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+.todo__title {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.todo__new_task {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.todo__text {
+    display: inline-block;
+    padding: 10px 10px;
+    width: 330px;
+    border-radius: 10px;
+    border: none;
+}
+
+.todo__btn {
+    display: inline-flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background: #d7b087;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.inputText {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.task-text {
+    width: 339px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.inputText button {
+    display: inline-flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    background: #d7b087;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
