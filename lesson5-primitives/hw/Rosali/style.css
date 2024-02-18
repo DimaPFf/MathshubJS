@@ -1,0 +1,67 @@
+
+.ex_1,
+.ex_2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 7px 10px;
+    justify-content: center;
+    align-items: center;
+    background: #eea589;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.new_frame {
+    margin-top: 50px;
+}
+
+
+.oracle_btn {
+    display: inline-flex;
+    padding: 7px 10px;
+    justify-content: center;
+    align-items: center;
+    background: #eea589;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.new_oracle {
+    margin-top: 50px;
+}
+
+.oracle_ball {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 150px;
+ height: 150px;
+ border-radius: 500px;
+ text-align: center;
+ background-image: linear-gradient(45deg, rgb(140, 202, 165), rgb(198, 159, 197), rgb(248, 160, 133), rgb(52, 219, 216))
+}
+
+
+
+.input_dublicate {
+    margin-right: 20px;
+}
+
+.btn_dublicate {
+    display: inline-flex;
+    padding: 7px 10px;
+    justify-content: center;
+    align-items: center;
+    background: #eea589;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
