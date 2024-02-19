@@ -1,21 +1,32 @@
+const addTask = () => {
+  const taskInput = document.getElementById("taskInput");
+  const task = taskInput.value;
 
-  
-function printForm(e){
-     
-    // получаем значение поля key
-    const keyBox = document.search.key;
-    const val = keyBox.value;
-    // получаем элемент Doc
-    const printBlock = document.getElementById("printBlock");
-    // создаем новый параграф
-    const pElement = document.createElement("p");
-    // устанавливаем у него текст
-    pElement.textContent = val;
-    // добавляем параграф в printBlock
-    printBlock.appendChild(pElement);
+  if (!task) return;
+
+  const taskList = document.getElementById("taskList");
+
+  const newTask = document.createElement("div");
+  newTask.classList.add("task");
+
+  const taskText = document.createElement("div");
+  taskText.classList.add("task-text");
+  taskText.innerHTML = task;
 
 
-  }
- 
-const printButton = document.search.print;
-printButton.addEventListener("click", printForm);
+
+  const deleteButton = document.createElement("button");
+  deleteButton.innerHTML = "Delete";
+  deleteButton.onclick = () => {
+    taskList.removeChild(newTask);
+  };
+
+
+
+
+  newTask.appendChild(taskText);
+  newTask.appendChild(deleteButton);
+  taskList.appendChild(newTask);
+
+  taskInput.value = "";
+};
