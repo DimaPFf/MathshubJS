@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+}
+
+.answer {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.answer:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+#root {
+  margin: 10px;
+  font-size: 24px;
+}
